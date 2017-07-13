@@ -43,7 +43,7 @@ header .front-banner {
   margin: 20px auto;
   padding: 0 20px;
   text-align: center;
-  height: 45vh;
+  height: 400px;
   border: 2px white solid;
   background: url("../img/banner.png") 40% 0 no-repeat;
   background-size: cover;
@@ -181,12 +181,16 @@ section.news p {
   text-align: center;
 }
 /* line 151, main.scss */
+section.news .news-body {
+  min-height: 150px;
+}
+/* line 154, main.scss */
 section.news p.news-title {
   font-weight: bold;
   font-size: 20px;
   margin-top: 10px;
 }
-/* line 156, main.scss */
+/* line 159, main.scss */
 section.news a.learn-more {
   margin: 0 auto;
   text-align: center;
@@ -200,45 +204,45 @@ section.news a.learn-more {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 169, main.scss */
+/* line 172, main.scss */
 section.news .tag {
   position: absolute;
   padding: 0 10px;
   color: white;
 }
-/* line 173, main.scss */
+/* line 176, main.scss */
 section.news .tag.news-date {
   right: 15px;
   top: 10px;
   background-color: #8cbf52;
 }
-/* line 178, main.scss */
+/* line 181, main.scss */
 section.news .tag.news-type {
   right: 15px;
   top: 30px;
   background-color: #56b8cc;
 }
-/* line 184, main.scss */
+/* line 187, main.scss */
 section.news .seminar {
   margin: 0 15px;
   margin-top: 10px;
   padding: 0 10px 20px;
   border-bottom: 1px solid #d6d6d6;
 }
-/* line 189, main.scss */
+/* line 192, main.scss */
 section.news .seminar-name {
   font-size: 20px;
   font-weight: bold;
 }
-/* line 194, main.scss */
+/* line 197, main.scss */
 section.news .seminar:last-of-type {
   border: none;
 }
-/* line 197, main.scss */
+/* line 200, main.scss */
 section.news a {
   color: black;
 }
-/* line 199, main.scss */
+/* line 202, main.scss */
 section.news a span.view-all {
   color: white;
   background-color: black;
@@ -250,20 +254,20 @@ section.news a span.view-all {
   margin-left: 25px;
   margin-right: 10px;
 }
-/* line 212, main.scss */
+/* line 215, main.scss */
 section.news h4 {
   font-weight: bold;
   text-align: left;
 }
-/* line 216, main.scss */
+/* line 219, main.scss */
 section.news img {
   margin-top: 10px;
 }
-/* line 219, main.scss */
+/* line 222, main.scss */
 section.news .col-md-6 {
   margin-bottom: 20px;
 }
-/* line 222, main.scss */
+/* line 225, main.scss */
 section.news button.view-more {
   border: none;
   background-color: black;
@@ -271,7 +275,7 @@ section.news button.view-more {
   padding: 10px 15px;
   margin-top: 50px;
 }
-/* line 229, main.scss */
+/* line 232, main.scss */
 section.news button.view-more:hover {
   background-color: white;
   color: black;
@@ -281,21 +285,21 @@ section.news button.view-more:hover {
   transition: all 0.5s ease 0s;
 }
 
-/* line 240, main.scss */
+/* line 243, main.scss */
 section.video {
   width: 100%;
   background-size: cover;
   text-align: center;
 }
-/* line 244, main.scss */
+/* line 247, main.scss */
 section.video .video-intro {
   margin-top: -40px;
 }
-/* line 246, main.scss */
+/* line 249, main.scss */
 section.video .video-intro h1 {
   font-weight: bold;
 }
-/* line 250, main.scss */
+/* line 253, main.scss */
 section.video iframe {
   margin: 10px 0;
   margin-bottom: 60px;
@@ -303,42 +307,42 @@ section.video iframe {
   border: 5px white solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* line 257, main.scss */
+/* line 260, main.scss */
 section.video img {
   width: 100%;
 }
 
-/* line 261, main.scss */
+/* line 264, main.scss */
 footer {
   background-color: black;
   color: white;
 }
-/* line 264, main.scss */
+/* line 267, main.scss */
 footer ul {
   list-style-type: none;
   padding: 0;
   margin-top: 20px;
 }
-/* line 268, main.scss */
+/* line 271, main.scss */
 footer ul li {
   float: left;
   padding-right: 10px;
 }
-/* line 273, main.scss */
+/* line 276, main.scss */
 footer a {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 278, main.scss */
+/* line 281, main.scss */
 footer img {
   margin-top: 20px;
 }
-/* line 281, main.scss */
+/* line 284, main.scss */
 footer i {
   margin-right: 5px;
 }
-/* line 284, main.scss */
+/* line 287, main.scss */
 footer button {
   border: none;
   background-color: white;
@@ -347,7 +351,7 @@ footer button {
   padding: 0 10px;
   margin-top: 20px;
 }
-/* line 292, main.scss */
+/* line 295, main.scss */
 footer .copy-right {
   margin-top: 10px;
   padding: 10px;
@@ -357,61 +361,61 @@ footer .copy-right {
 }
 
 @media screen and (max-width: 992px) {
-  /* line 304, main.scss */
+  /* line 307, main.scss */
   section.about .about-text {
     margin-top: 0;
     left: 35%;
   }
-  /* line 306, main.scss */
+  /* line 309, main.scss */
   section.about .about-text p {
     padding-top: 0;
   }
-  /* line 311, main.scss */
+  /* line 314, main.scss */
   section.about h1, section.about h2 {
     font-size: 25px;
   }
 
-  /* line 317, main.scss */
+  /* line 320, main.scss */
   section.news .tag.news-date {
     right: inherit;
     left: 15px;
   }
-  /* line 321, main.scss */
+  /* line 324, main.scss */
   section.news .tag.news-type {
     right: inherit;
     left: 15px;
   }
-  /* line 325, main.scss */
+  /* line 328, main.scss */
   section.news p {
     text-align: left;
   }
-  /* line 328, main.scss */
+  /* line 331, main.scss */
   section.news a.learn-more {
     margin: 0;
   }
 
-  /* line 334, main.scss */
+  /* line 337, main.scss */
   footer button {
     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 343, main.scss */
+  /* line 346, main.scss */
   header .row {
     padding: 0 10px;
   }
 
-  /* line 346, main.scss */
+  /* line 349, main.scss */
   ul.menu {
     display: none;
   }
 
-  /* line 349, main.scss */
+  /* line 352, main.scss */
   h1, h2 {
     font-size: 25px;
   }
 
-  /* line 352, main.scss */
+  /* line 355, main.scss */
   header .header .mobile-menu {
     display: block;
     float: right;
@@ -419,28 +423,28 @@ footer .copy-right {
     margin-right: 10px;
   }
 
-  /* line 358, main.scss */
+  /* line 361, main.scss */
   header .front-title {
     width: 90%;
   }
 
-  /* line 363, main.scss */
+  /* line 366, main.scss */
   section.about .about-text {
     left: 0;
     position: relative;
     padding: 10px;
   }
-  /* line 368, main.scss */
+  /* line 371, main.scss */
   section.about .about-img {
     max-width: 100%;
   }
 
-  /* line 373, main.scss */
+  /* line 376, main.scss */
   section.news h1 {
     margin-bottom: 0;
   }
 
-  /* line 376, main.scss */
+  /* line 379, main.scss */
   section.news h1:after {
     margin: -15px 0 auto;
   }

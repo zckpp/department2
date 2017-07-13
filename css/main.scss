@@ -32,7 +32,7 @@ header {
     margin: 20px auto;
     padding: 0 20px;
     text-align: center;
-    height: 45vh;
+    height: 400px;
     border: 2px white solid;
     background: url("../img/banner.png") 40% 0 no-repeat;
     background-size: cover;
@@ -147,6 +147,9 @@ section.news {
   }
   p {
     text-align: center;
+  }
+  .news-body {
+    min-height: 150px;
   }
   p.news-title {
     font-weight: bold;
